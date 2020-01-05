@@ -4,6 +4,8 @@ service:
 #app: your-app-name
 #org: your-org-name
 
+frameworkVersion: '>=1.0.0 <2.0.0'
+
 custom:
   webpack:
     webpackConfig: ./webpack.config.js
