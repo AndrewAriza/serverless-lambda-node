@@ -33,3 +33,9 @@ functions:
       - http:
           method: get
           path: /
+      # - http: ANY /
+      #   cors:
+      #     origin: '*'
+      # - http: ANY {proxy+}
+      #   cors:
+      #     origin: '*'
