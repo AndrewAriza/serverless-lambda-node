@@ -13,6 +13,8 @@
     "@types/node": "^10.12.18",
     "fork-ts-checker-webpack-plugin": "^3.0.1",
     "husky": "^3.1.0",
+    "prettier": "1.19.1",
+    "pretty-quick": "^2.0.1",
     "serverless-webpack": "^5.2.0",
     "ts-loader": "^5.3.3",
     "typescript": "^3.2.4",
@@ -21,7 +23,8 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "pretty-quick --staged"
     }
   },
   "author": "The serverless webpack authors (https://github.com/elastic-coders/serverless-webpack)",
