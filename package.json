@@ -4,7 +4,7 @@
   "description": "Serverless webpack example using Typescript",
   "main": "handler.js",
   "dependencies": {
-    "serverless-offline": "^5.12.1",
+    "serverless-offline": "^12.0.3",
     "source-map-support": "^0.5.10"
   },
   "devDependencies": {
